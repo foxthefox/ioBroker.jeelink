@@ -16,32 +16,6 @@
                 "uk": "Оновити залежності, дотримуйтесь перевірки оновлення",
                 "zh-cn": "更新依赖项，遵守更新检查器"
             },
-            "1.2.6": {
-                "en": "update dependencies",
-                "de": "Abhängigkeiten aktualisieren",
-                "ru": "обновить зависимости",
-                "pt": "Atualizar dependências",
-                "nl": "Update afhankelijkheden",
-                "fr": "Mettre à jour les dépendances",
-                "it": "Aggiorna dipendenze",
-                "es": "actualizar dependencias",
-                "pl": "Zaktualizuj zależności",
-                "uk": "Оновити залежності",
-                "zh-cn": "更新依赖项"
-            },
-            "1.2.5": {
-                "en": "eslint upgrade and corrections",
-                "de": "Eslint-Upgrade und Korrekturen",
-                "ru": "обновление и исправления eslint",
-                "pt": "atualização e correções do eslint",
-                "nl": "eslint-upgrade en correcties",
-                "fr": "mise à jour et corrections d'Eslint",
-                "it": "aggiornamento e correzioni di eslint",
-                "es": "actualización y correcciones de eslint",
-                "pl": "aktualizacja i poprawki eslint",
-                "uk": "оновлення та виправлення eslint",
-                "zh-cn": "eslint 升级和修正"
-            },
             "1.2.4": {
                 "en": "IOB checker corrections",
                 "de": "Korrekturen des IOB-Checkers",
@@ -97,13 +71,7 @@
         },
         "platform": "Javascript/Node.js",
         "mode": "daemon",
-        "keywords": [
-            "jeelink",
-            "openenergy",
-            "RFM",
-            "LaCrosse",
-            "emonTH"
-        ],
+        "keywords": ["jeelink", "openenergy", "RFM", "LaCrosse", "emonTH"],
         "type": "hardware",
         "icon": "jeelab_logo.png",
         "extIcon": "https://raw.githubusercontent.com/foxthefox/ioBroker.jeelink/master/admin/jeelab_logo.png",

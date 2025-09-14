@@ -28,8 +28,7 @@
                     "sm": 12,
                     "md": 12,
                     "lg": 12,
-                    "xl": 12,
-                    "size": 3
+                    "xl": 12
                 },
                 "serialport": {
                     "type": "text",
@@ -70,8 +69,7 @@
                     "sm": 12,
                     "md": 12,
                     "lg": 12,
-                    "xl": 12,
-                    "size": 3
+                    "xl": 12
                 },
                 "command": {
                     "newLine": true,
@@ -82,8 +80,7 @@
                     "sm": 12,
                     "md": 12,
                     "lg": 12,
-                    "xl": 12,
-                    "size": 3
+                    "xl": 12
                 },
                 "command_en": {
                     "type": "checkbox",
@@ -115,12 +112,11 @@
                     "sm": 12,
                     "md": 12,
                     "lg": 12,
-                    "xl": 12,
-                    "size": 3
+                    "xl": 12
                 },
                 "_test": {
                     "type": "sendTo",
-                    "hidden": true,
+                    "hidden": "true",
                     "label": "Get from adapter",
                     "command": "test",
                     "variant": "contained",
@@ -209,7 +205,7 @@
                             "title": "UID",
                             "attr": "usid",
                             "filter": false,
-                            "sort": false,
+                            "sort": false
                         },
                         {
                             "type": "text",
