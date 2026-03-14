@@ -2,6 +2,14 @@
 version: 2
 updates:
 
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "cron"
+      timezone: "Europe/Berlin"
+      cronjob: "52 3 23 * *"
+    open-pull-requests-limit: 15
+    
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
