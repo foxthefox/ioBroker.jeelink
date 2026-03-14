@@ -34,14 +34,6 @@ jobs:
               with:
                   node-version: '22.x'
                   lint: true
-            # enable integration tests
-            - name: Run integration tests (unix only)
-              if: startsWith(runner.OS, 'windows') == false
-              run: DEBUG=testing:* npm run test:integration
-
-            - name: Run integration tests (windows only)
-              if: startsWith(runner.OS, 'windows')
-              run: set DEBUG=testing:* & npm run test:integration
 
     # Runs adapter tests on all supported node versions and OSes
     adapter-tests:
@@ -60,6 +52,7 @@ jobs:
               with:
                   node-version: ${{ matrix.node-version }}
                   os: ${{ matrix.os }}
+                  extra-tests: npm run test:integration
 
     deploy:
         needs: [check-and-lint, adapter-tests]
