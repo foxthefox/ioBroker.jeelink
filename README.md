@@ -55,6 +55,10 @@ to be done in admin
 
 ## Changelog:
 
+### 1.2.8 (npm)
+
+- (foxthefox) update dependencies, comply with repo checker
+
 ### 1.2.7 (npm)
 
 - (foxthefox) update dependencies, comply with repo checker
