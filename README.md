@@ -55,6 +55,10 @@ to be done in admin
 
 ## Changelog:
 
+### 1.2.9 (npm)
+
+- (foxthefox) fix jsonConfig
+
 ### 1.2.8 (npm)
 
 - (foxthefox) update dependencies, comply with repo checker

@@ -1,8 +1,21 @@
 {
     "common": {
         "name": "jeelink",
-        "version": "1.2.8",
+        "version": "1.2.9",
         "news": {
+            "1.2.9": {
+                "en": "fix jsonConfig",
+                "de": "jsonConfig reparieren",
+                "ru": "исправить jsonConfig",
+                "pt": "corrigir jsonConfig",
+                "nl": "jsonConfig repareren",
+                "fr": "corriger jsonConfig",
+                "it": "corretto jsonConfig",
+                "es": "arreglar jsonConfig",
+                "pl": "napraw jsonConfig",
+                "uk": "виправити jsonConfig",
+                "zh-cn": "修复 jsonConfig"
+            },
             "1.2.8": {
                 "en": "update dependencies, comply update checker",
                 "de": "Aktualisieren Sie die Abhängigkeiten, den Update -Checker entsprechen",
@@ -84,7 +97,13 @@
         },
         "platform": "Javascript/Node.js",
         "mode": "daemon",
-        "keywords": ["jeelink", "openenergy", "RFM", "LaCrosse", "emonTH"],
+        "keywords": [
+            "jeelink",
+            "openenergy",
+            "RFM",
+            "LaCrosse",
+            "emonTH"
+        ],
         "type": "hardware",
         "icon": "jeelab_logo.png",
         "extIcon": "https://raw.githubusercontent.com/foxthefox/ioBroker.jeelink/master/admin/jeelab_logo.png",

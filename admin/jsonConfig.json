@@ -85,7 +85,6 @@
                 "command_en": {
                     "type": "checkbox",
                     "label": "enable command",
-                    "text": "usually empty",
                     "newLine": true,
                     "xs": 12,
                     "sm": 12,
