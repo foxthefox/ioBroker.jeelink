@@ -41,7 +41,7 @@
     },
     "main": "main.js",
     "engines": {
-        "node": ">= 20"
+        "node": ">= 22"
     },
     "files": [
         "admin{,/!(src)/**}/!(tsconfig|tsconfig.*).json",
