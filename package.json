@@ -19,7 +19,7 @@
     "url": "https://github.com/foxthefox/ioBroker.jeelink"
   },
   "dependencies": {
-    "@iobroker/adapter-core": "^3.4.1",
+    "@iobroker/adapter-core": "^3.4.3",
     "@serialport/parser-readline": "^13.0.0",
     "serialport": "^13.0.0"
   },
